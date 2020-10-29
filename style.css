@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: black;
+    max-width: 100%;
+}
+
+/* Header */
+
+.header-container {
+    background-color: black;
+    color: white;
+}
+
+.header-wrapper {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    min-height: 4vh;
+    font-size: 1.5vh;
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+.nav-links ul {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-link a {
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: rgb(76, 127, 221);
+    text-decoration: none;
+}
+
+/* Showcase */
+
+.name-container {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+/* Main */
+
+.section-title {
+    padding-top: 0.5%;
+    background-color: black;
+}
+
+.section-title h1 {
+    margin-left: 5%;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.sub-title {
+    font-size: 3vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+
+.minor-title {
+    font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.description {
+    font-size: 1.75vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.dot-point {
+    font-size: 1.75vh;
+}
+
+/* Images */
+
+.link-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.dp-img {
+    border-radius: 50%;
+    border: black 6px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 40%;
+}
+
+/* Footer */
+
+footer {
+    min-height: 5vh;
+    background-color: black;
+}
+
+footer p {
+    font-size: 1.75vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
