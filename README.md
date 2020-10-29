@@ -1,2 +1,3 @@
-# portfolio-website
-My Portfolio Website (2020)
+# My Portfolio Website (2020)
+
+Created using HTML, CSS and soon to be adding JS, PHP and more. 
