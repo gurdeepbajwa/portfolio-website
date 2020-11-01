@@ -16,6 +16,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
+
+    <!-- AWS -->
+    <script defer src="./lambda_db_write.js"></script>
 </head>
 
 <body>
@@ -26,7 +29,7 @@
                     <li class="nav-link"><a href="https://www.linkedin.com/in/gurdeep-bajwa/"
                             target="_blank">Linkedin</a></li>
                     <li class="nav-link"><a href="https://github.com/gurdeepbajwa" target="_blank">Github</a></li>
-                    <li class="nav-link"><a href="mailto:deepbaj97@gmail.com">Email</a></li>
+                    <li class="nav-link"><a href="mailto:deepbaj97@gmail.com">Deepbaj97@gmail.com</a></li>
                 </ul>
             </nav>
         </div>
@@ -254,8 +257,48 @@
     </main>
 
     <footer>
+
         <div class="container-lg">
-            <p>DEEPBAJ97@GMAIL.COM</p>
+            <form method="POST">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="form-group col-12 col-lg-6">
+                            <label for="firstNameInput">First name:</label>
+                            <input id="firstNameInput" class="form-control" name="firstNameInput" type="text">
+                        </div>
+
+                        <div class="form-group col-12 col-lg-6">
+                            <label for="SecondNameInput">Surname:</label>
+                            <input id="SecondNameInput" class="form-control" name="secondNameInput" type="text">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-12 col-lg-6">
+                            <div class="form-group">
+                                <label for="emailInput">Email:</label>
+                                <input id="emailInput" class="form-control" name="emailInput" type="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-12 col-lg-6">
+                            <div class="form-group">
+                                <label for="orgInput">Organization:</label>
+                                <input id="orgInput" class="form-control" name="orgInput" type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group col-12">
+                            <label for="messageInput">Message:</label>
+                            <textarea id="messageInput" class="form-control" name="messageInput" type="text" rows="3" required></textarea>
+                        </div>
+
+                        <div class="form-group col-12">
+                            <input type="submit" class="btn btn-primary col-12" id='submitButton'>Submit</input>
+                        </div>
+                    </div>
+            </form>
+
         </div>
 
     </footer>

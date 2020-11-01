@@ -114,10 +114,19 @@ a:hover {
 footer {
     min-height: 5vh;
     background-color: black;
+    padding-bottom: 10px;
 }
 
 footer p {
     font-size: 1.75vh;
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+
+label {
+    color: white;
+}
+
+form {
+    padding-top: 15px;
 }
