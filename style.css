@@ -145,6 +145,10 @@ form {
     font-size: 1.75vh !important;
 }
 
+textarea {
+    font-size: 1.75vh !important;
+}
+
 input {
     height: 5vh;
     font-size: 2.5vh !important;
@@ -152,13 +156,13 @@ input {
     font-weight: 500 !important;
 }
 
-.contact-container span{
+.contact-container span {
     color: white;
     font-weight: 900;
     font-size: 2vh;
 }
 
-.contact-container p{
+.contact-container p {
     font-size: 2vh;
     padding-top: 5vh;
     text-align: center;
