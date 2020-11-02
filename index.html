@@ -29,7 +29,7 @@
                     <li class="nav-link"><a href="https://www.linkedin.com/in/gurdeep-bajwa/"
                             target="_blank">Linkedin</a></li>
                     <li class="nav-link"><a href="https://github.com/gurdeepbajwa" target="_blank">Github</a></li>
-                    <li class="nav-link"><a href="mailto:deepbaj97@gmail.com">Deepbaj97@gmail.com</a></li>
+                    <li class="nav-link"><a href="mailto:deepbaj97@gmail.com">Email</a></li>
                 </ul>
             </nav>
         </div>
@@ -264,12 +264,12 @@
                     <div class="row">
                         <div class="form-group col-12 col-lg-6">
                             <label for="firstNameInput">First name:</label>
-                            <input id="firstNameInput" class="form-control" name="firstNameInput" type="text">
+                            <input id="firstNameInput" class="form-control textbox" name="firstNameInput" type="text">
                         </div>
 
                         <div class="form-group col-12 col-lg-6">
                             <label for="SecondNameInput">Surname:</label>
-                            <input id="SecondNameInput" class="form-control" name="secondNameInput" type="text">
+                            <input id="SecondNameInput" class="form-control textbox" name="secondNameInput" type="text">
                         </div>
                     </div>
 
@@ -277,24 +277,28 @@
                         <div class="form-group col-12 col-lg-6">
                             <div class="form-group">
                                 <label for="emailInput">Email:</label>
-                                <input id="emailInput" class="form-control" name="emailInput" type="email" required>
+                                <input id="emailInput" class="form-control textbox" name="emailInput" type="email">
+                                <p id="emailErrorOutput" class="errorMsg"></p>
                             </div>
                         </div>
 
                         <div class="form-group col-12 col-lg-6">
                             <div class="form-group">
                                 <label for="orgInput">Organization:</label>
-                                <input id="orgInput" class="form-control" name="orgInput" type="text">
+                                <input id="orgInput" class="form-control textbox" name="orgInput" type="text">
                             </div>
                         </div>
 
                         <div class="form-group col-12">
                             <label for="messageInput">Message:</label>
-                            <textarea id="messageInput" class="form-control" name="messageInput" type="text" rows="3" required></textarea>
+                            <textarea id="messageInput" class="form-control" name="messageInput" type="text"
+                                rows="3"></textarea>
+                            <p id="messageErrorOutput" class="errorMsg"></p>
                         </div>
 
-                        <div class="form-group col-12">
-                            <input type="submit" class="btn btn-primary col-12" id='submitButton'>Submit</input>
+                        <div class="form-group col-12 text-center">
+                            <input type="submit" class="btn btn-dark btn-outline-light  col-12 col-lg-5 "
+                                id='submitButton'>Submit</input>
                         </div>
                     </div>
             </form>

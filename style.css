@@ -125,8 +125,26 @@ footer p {
 
 label {
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
 }
 
 form {
-    padding-top: 15px;
+    padding-top: 2vh;
+}
+
+.errorMsg {
+    color: rgb(246, 104, 104);
+    padding-top: 0.5vh;
+    font-size: 2vh;
+    font-style: italic;
+}
+
+.textbox {
+    height: 4vh !important;
+    font-size: 1.75vh !important;
+}
+
+input {
+    height: 4vh;
 }
