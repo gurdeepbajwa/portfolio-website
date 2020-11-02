@@ -146,8 +146,20 @@ form {
 }
 
 input {
-    height: 4vh;
-    font-size: 2vh !important;
+    height: 5vh;
+    font-size: 2.5vh !important;
     font-family: 'Roboto', sans-serif !important;
     font-weight: 500 !important;
+}
+
+.contact-container span{
+    color: white;
+    font-weight: 900;
+    font-size: 2vh;
+}
+
+.contact-container p{
+    font-size: 2vh;
+    padding-top: 5vh;
+    text-align: center;
 }

@@ -67,7 +67,7 @@ $('#submitButton').on('click', function () {
     if (email == null || email == "") {
         isInvalid = true;
         document.getElementById("emailErrorOutput").innerText = "Email address is mandatory";
-    } else if ( !emailRegExp.test(email)) {
+    } else if (!emailRegExp.test(email)) {
         isInvalid = true;
         document.getElementById("emailErrorOutput").innerText = "Email address is not valid";
     }
