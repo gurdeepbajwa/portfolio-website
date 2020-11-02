@@ -147,4 +147,7 @@ form {
 
 input {
     height: 4vh;
+    font-size: 2vh !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
 }
