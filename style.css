@@ -159,11 +159,23 @@ input {
 .contact-container span {
     color: white;
     font-weight: 900;
-    font-size: 2vh;
+    font-size: 1.5vh;
 }
 
 .contact-container p {
-    font-size: 2vh;
+    font-size: 1.5vh;
     padding-top: 5vh;
     text-align: center;
+}
+
+footer h1 {
+    padding-top: 3%;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: white;
+    font-size: 2.5vh;
 }
